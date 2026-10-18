@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Ball — Ballon d'Or</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- верхнее меню -->
+    <div class="header">
+        <div class="logo">Golden Ball</div>
+
+        <ul class="menu">
+            <li><a href="#">Главная</a></li>
+            <li>
+                <a href="#">Награда</a>
+                <ul class="submenu">
+                    <li><a href="#">История</a></li>
+                    <li><a href="#">Критерии</a></li>
+                    <li><a href="#">Церемония</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Победители</a>
+                <ul class="submenu">
+                    <li><a href="#">2024</a></li>
+                    <li><a href="#">2023</a></li>
+                    <li><a href="#">2022</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Номинанты</a>
+                <ul class="submenu">
+                    <li><a href="#">Ямаль</a></li>
+                    <li><a href="#">Мбаппе</a></li>
+                    <li><a href="#">Кейн</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Контакты</a></li>
+        </ul>
+    </div>
+
+    <!-- боковое меню -->
+    <div class="sidebar">
+        <a href="#">Новости</a>
+        <a href="#">Церемония</a>
+        <a href="#">Номинанты</a>
+        <a href="#">История</a>
+        <a href="#">Видео</a>
+    </div>
+
+    <!-- карусель -->
+    <div class="content">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="yamal.webp" class="d-block w-100" alt="Ламин Ямаль">
+            </div>
+            <div class="carousel-item">
+                <img src="mbappe.webp" class="d-block w-100" alt="Килиан Мбаппе">
+            </div>
+            <div class="carousel-item">
+                <img src="harry.webp" class="d-block w-100" alt="Гарри Кейн">
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
